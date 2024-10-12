@@ -1,28 +1,38 @@
-import { Experience } from '@/types/experience';
+import { Experience } from "@/types/experience";
 
 export const WORK_EXPERIENCES: Experience[] = [
-    {
-        company: 'Redit',
-        role: 'Software Engineer',
-        startDate: '2020-01-01',
-        endDate: '2021-01-01',
-        description: 'Developed various web applications.',
-        logoUrl: 'https://example.com/logo-a.png',
-    },
-    {
-        company: 'Company B',
-        role: 'Frontend Developer',
-        startDate: '2021-02-01',
-        endDate: '2022-02-01',
-        description: 'Worked on UI/UX design and implementation.',
-        logoUrl: 'https://example.com/logo-b.png',
-    },
-    {
-        company: 'Company C',
-        role: 'Backend Developer',
-        startDate: '2022-03-01',
-        endDate: '2023-03-01',
-        description: 'Built and maintained server-side applications.',
-        logoUrl: 'https://example.com/logo-c.png',
-    }
-]
+  {
+    company: "Firstplanit",
+    role: "Software Engineer Intern",
+    startDate: "Jul 2024",
+    endDate: "Sep 2024",
+    description: "Worked on UI/UX design and implementation.",
+    logoUrl: "/images/FPILogo.jpeg",
+  },
+  {
+    company: "General Assembly",
+    role: "Software Engineering Fellow",
+    startDate: "Oct 2023",
+    endDate: "Jan 2024",
+    description: "Built and maintained server-side applications.",
+    logoUrl: "/images/GeneralAssemblyLogo.jpeg",
+  },
+  {
+    company: "Various",
+    role: "Associate Project Manager",
+    startDate: "May 2018",
+    endDate: "May 2023",
+    description:
+      "Managed construction projects with budgets exceeding $300 million",
+    logoUrl: "/images/real estate.png",
+  },
+  {
+    company: "Texas A&M University",
+    role: "Graduate Teaching Assistant",
+    startDate: "Jan 2017",
+    endDate: "May 2018",
+    description:
+      "Facilitated learning in Project Management course for over 350 students",
+    logoUrl: "/images/TAMULOGO.jpeg",
+  },
+];

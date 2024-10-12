@@ -25,7 +25,7 @@ export const NavigationBar = () => {
                     </NavigationLink>
                 </DockIcon>
                 <DockIcon>
-                    <NavigationLink href={ '/' } label={ 'Blog' }>
+                    <NavigationLink href={ '/' } label={ 'Resume' }>
                         <FaNewspaper size={ '1.10rem' } />
                     </NavigationLink>
                 </DockIcon>

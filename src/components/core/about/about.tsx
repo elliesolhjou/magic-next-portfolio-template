@@ -14,7 +14,7 @@ export const About = () => {
                 <SectionHeading title={ 'About Me' } />
                 <BoxReveal boxColor={ 'black' }>
                     <AnimatedShinyText className={ 'text-gray-400 text-sm sm:text-lg' } shimmerWidth={ 200 }>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod delectus eveniet cumque nesciunt, odit non, <Link href={ '/' }>quasi quam laboriosam sint voluptatum beatae</Link> dicta labore eos voluptates. Dignissimos quam nesciunt ad culpa <Link href={ '/' }>repellat praesentium explicabo nihil</Link>. Libero aut provident quos voluptates incidunt.
+                    Hey there! I'm Ellie Solhjou, a tech enthusiast with a passion for solving real-world problems through code and creativity. By day, I'm diving deep into computer science at USC, and by night, I'm crafting solutions that mix tech with a touch of sustainability. Whether I'm managing projects or developing software, I'm all about making an impact and having fun while doing it. Let's build something amazing together—one line of code (and maybe a bit of coffee) at a time!
                     </AnimatedShinyText>
                 </BoxReveal>
             </Flex>

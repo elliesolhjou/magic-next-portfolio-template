@@ -35,7 +35,7 @@ export const ProjectCard = ({ project, index }: { project: Project, index: numbe
                         </Dialog.Title>
                     </VisuallyHidden>
                     <Inset clip={ 'padding-box' } side={ 'top' } pb={ 'current' }>
-                        <Image priority src={ `/${ project.imgSrc }` } alt={ 'placeholder' } width={ 700 } height={ 400 } className={ 'w-fit rounded-t-xl border-b-[3px] border-[--gray-12]' } />
+                        <Image priority src={ `/${ project.imgSrc }` } alt={ 'placeholder' } width={ 1000 } height={ 400 } className={ 'w-full h-full rounded-t-xl border-b-[3px] border-[--gray-12] object-cover' } />
                     </Inset>
                     <Flex justify={ 'between' }>
                         <Heading size={ '5' } weight={ 'bold' }>
