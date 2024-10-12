@@ -24,11 +24,11 @@ export const NavigationBar = () => {
                         <FaFolderOpen size={ '1.10rem' } />
                     </NavigationLink>
                 </DockIcon>
-                <DockIcon>
+                {/* <DockIcon>
                     <NavigationLink href={ '/' } label={ 'Blog' }>
                         <FaNewspaper size={ '1.10rem' } />
                     </NavigationLink>
-                </DockIcon>
+                </DockIcon> */}
                 <Separator orientation={ 'vertical' } size={ '4' } />
                 <DockIcon>
                     <NavigationLink href={ 'https://github.com/elliesolhjou' } label={ 'GitHub' }>
